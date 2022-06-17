@@ -10,6 +10,9 @@ npm i create-merged-request rxjs # Please note that rxjs is peer dependency of i
 
 ## Usage
 
+For example if you have tons of user query in different components and you want
+to combine theme into one.
+
 ```ts
 import { createMergedRequest } from 'create-merged-request'
 
