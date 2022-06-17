@@ -4,6 +4,7 @@
   "description": "Merge scattered requests into one, distribute corresponding result to requestor.",
   "main": "es/index.js",
   "module": "es/index.js",
+  "types": "es/index.d.ts",
   "type": "module",
   "files": [
     "es"
