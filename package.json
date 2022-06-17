@@ -1,0 +1,22 @@
+{
+  "name": "create-merged-request",
+  "version": "1.0.0",
+  "description": "Merge scattered requests into one, distribute corresponding result to requestor.",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "vite"
+  },
+  "author": "07akioni",
+  "license": "MIT",
+  "devDependencies": {
+    "rxjs": "^7.5.5",
+    "typescript": "^4.7.3",
+    "vite": "^2.9.12"
+  },
+  "peerDependencies": {
+    "rxjs": "^7"
+  }
+}

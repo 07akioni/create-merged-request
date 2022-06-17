@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "es",
+    "module": "ESNext",
+    "declaration": true
+  },
+  "include": ["src"]
+}
