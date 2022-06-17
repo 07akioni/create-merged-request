@@ -26,7 +26,7 @@ const mergedRequest = createMergedRequest<string, User[], User>({
   }
 })
 
-// Only 1 `fetchUsers` will be called
+// `fetchUsers` will be called only once
 mergedRequest(userId1).then((user) => console.log(user))
 mergedRequest(userId2).then((user) => console.log(user))
 mergedRequest(userId3).then((user) => console.log(user))
