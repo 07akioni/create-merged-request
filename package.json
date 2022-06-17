@@ -10,8 +10,9 @@
     "es"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "dev": "vite"
+    "build": "rm -rf es && tsc -p tsconfig.json",
+    "dev": "vite",
+    "prepublishOnly": "pnpm run build"
   },
   "author": "07akioni",
   "license": "MIT",
