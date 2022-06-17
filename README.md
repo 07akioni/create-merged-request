@@ -22,10 +22,10 @@ import { createMergedRequest } from 'create-merged-request'
 const mergedRequest = createMergedRequest<string, User[], User>({
   thresholdMs: 0, // time threshold to merged request into one request
   createRequest(ids) {
-    return fetchUsers(ids) // type: (ids: string[]) => Promise<User[]>
+    return fetchUsers(ids) // `fetchUsers` type: (ids: string[]) => Promise<User[]>
   },
   createResponse(id, users) {
-    return users.find((user) => user.id === id)! // type: User
+    return users.find((user) => user.id === id)! // return type: User
   }
 })
 
