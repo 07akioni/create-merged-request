@@ -1,4 +1,4 @@
-# create-merged-request
+# create-merged-request · [![npm version](https://badge.fury.io/js/create-merged-request.svg)](https://badge.fury.io/js/create-merged-request)
 
 Merge scattered requests into one, distribute corresponding result to requestor.
 
