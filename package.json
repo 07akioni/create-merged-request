@@ -5,6 +5,9 @@
   "main": "es/index.js",
   "module": "es/index.js",
   "type": "module",
+  "files": [
+    "es"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "vite"
